@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Orchestral Observatory
+Ochestral Observatory
 
 A 3D visualization of AI agent clusters and message flows using SDL2 and OpenGL.
 
