@@ -1,0 +1,3 @@
+C:/Projects/orchestral-observatory/build/CMakeFiles/orchestral-observatory.dir
+C:/Projects/orchestral-observatory/build/CMakeFiles/ALL_BUILD.dir
+C:/Projects/orchestral-observatory/build/CMakeFiles/ZERO_CHECK.dir

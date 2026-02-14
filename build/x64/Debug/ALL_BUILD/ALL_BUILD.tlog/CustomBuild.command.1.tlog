@@ -1,0 +1,10 @@
+^C:\PROJECTS\ORCHESTRAL-OBSERVATORY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Projects/orchestral-observatory -BC:/Projects/orchestral-observatory/build --check-stamp-file C:/Projects/orchestral-observatory/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
